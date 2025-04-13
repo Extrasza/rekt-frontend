@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REKT - Games Backlog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="user-info">
+        <span id="user-name-display">Usuário: </span>
+        <input type="text" id="user-name-input" placeholder="Digite seu nome" />
+        <button id="login-btn">Login</button>
+    </div>
+    <img src="resources/logo.png" class="logo" />
+    <nav>
+      <a href="#" data-page="home" class="active">
+        <img src="resources/icon-home.png" alt="Home Icon" class="nav-icon" />
+        <span>Home</span>
+      </a>
+      <a href="#" data-page="pnow">
+        <img src="resources/icon-pnow.png" alt="Controller Icon" class="nav-icon" />
+        <span>Jogando</span>
+      </a>
+      <a href="#" data-page="backlog">
+        <img src="resources/icon-backlog.png" alt="Books Icon" class="nav-icon" />
+        <span>Backlog</span>
+      </a>
+    </nav>
+  </header>
+
+  <main class="content" id="content"></main>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
