@@ -11,7 +11,7 @@ O **REKT - Game Backlog** é uma aplicação para gerenciar o backlog de jogos d
 Primeiro, clone o repositório para sua máquina local:
 
 ```bash
-git clone https://github.com/seu-usuario/rekt-frontend.git
+git clone https://github.com/extrasza/rekt-frontend.git
 cd rekt-frontend
 ```
 ```bash
